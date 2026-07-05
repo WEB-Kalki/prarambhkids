@@ -119,11 +119,24 @@ p{
 
     box-shadow:0 10px 25px rgba(255,145,77,.35);
 
+    cursor:pointer;
+
+    border:none;
+
+    text-decoration:none;
+
 }
 
 .btn:hover{
 
-    transform:translateY(-5px);
+    transform:translateY(-2px);
+
+}
+
+.btn:active,
+.btn-outline:active {
+
+    transform:translateY(0);
 
 }
 
@@ -144,6 +157,8 @@ p{
     transition:.35s;
 
     font-weight:600;
+
+    text-decoration:none;
 
 }
 
